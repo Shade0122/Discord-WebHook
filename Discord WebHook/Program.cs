@@ -7,7 +7,7 @@ namespace Discord_WebHook
     {
         static void Main()
         {
-            Post("TOKEN HERE", new NameValueCollection()
+            Post("WEBHOOK URL HERE", new NameValueCollection()
             {
                 {"username","USERNAME HERE"},
                 {"avatar_url","AVATAR URL HERE"},
